@@ -26,8 +26,8 @@ selected_year = st.sidebar.selectbox('Año', list(reversed(range(1950, 2021))))
 #web scraping nba players
 @st.cache
 def load_data(year):
-	#url = 'https://www.basketball-reference.com/leagues/NBA_' + str(year) + '_per_game.html'
-	html = pd.read_html('https://www.basketball-reference.com/leagues/NBA_', header=0)
+	url = 'https://www.basketball-reference.com/leagues/NBA_' + str(year) + '_per_game.html'
+	html = pd.read_html(url, header=0)
 	df = html[0]
 	raw= df.drop(df[df.Age =='Age'].index)#elimina los header que se repiten
 	raw = raw.fillna(0)
