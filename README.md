@@ -1,4 +1,3 @@
 # NBA_web_app
 
-## Description  
-web app with streamlit
+**Description:** web app with streamlit
