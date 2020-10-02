@@ -16,4 +16,4 @@ En este reporsitorio esta conformado por:
 ## Resultados
 **web page de las app creadas**
 - [NBA](https://nba-apy.herokuapp.com/)  
-- [NBA estadísticas](https://nba-references.herokuapp.com/)
+- [NBA estadísticas](https://nba-references.herokuapp.com/)  
