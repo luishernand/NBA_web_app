@@ -14,4 +14,4 @@ En este reporsitorio esta conformado por:
 1.2 nba_reference.py: mejoras de la primera versión con las estadísticas de los jugadores
 
 [NBA players stats](https://nba-apy.herokuapp.com/)  
-{NBA estadísticas](https://nba-references.herokuapp.com/)
+[NBA estadísticas](https://nba-references.herokuapp.com/)
